@@ -52,6 +52,12 @@ input{
 input:focus{
     border-bottom: 3px solid rgb(33, 87, 87);
 }
+input[type=text],input[type=password],input[type=Email]{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 40px;
+
+}
 .form_Signup{
     color:black;
     margin: 15px;
