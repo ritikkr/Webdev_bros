@@ -1,0 +1,77 @@
+header{
+    background-color:whitesmoke;
+    display: block;
+}
+.social{
+    float:Right;
+    height: 20px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#form_login {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100%;
+    max-height:100%
+}
+#outPopUp {
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    z-index: 15;
+    top: 40%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    background:whitesmoke;
+    padding-left: 25px;
+   /* border-radius: 5px;   */
+}
+input{
+    width: 80%;
+    border: none;
+   /* border-radius: 10px;   */
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+input:focus{
+    border-bottom: 3px solid #555;
+}
+.form_Signup{
+    color:black;
+    margin: 15px;
+    text-align: center;
+    margin-bottom:20px;
+    background-color:rgb(203,196,25);
+}
+input[type=submit]{
+    margin: 4px 2px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+    font-weight:500;
+}
+.multicolortext {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    font-size: 30px;
+ }
