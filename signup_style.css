@@ -31,7 +31,7 @@ body{
 #outPopUp {
     position: absolute;
     width: 350px;
-    height: 450px;
+    height: 550px;
     z-index: 15;
     top: 40%;
     left: 50%;
@@ -50,7 +50,7 @@ input{
     background-color: white;
 }
 input:focus{
-    border-bottom: 3px solid rgb(33, 87, 87);
+    border-bottom: 10px solid rgb(23, 59, 59));
 }
 input[type=text],input[type=password],input[type=Email]{
     border: none;
