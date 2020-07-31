@@ -30,7 +30,7 @@ body{
 }
 #outPopUp {
     width: 350px;
-    height: 550px;
+    height: 600px;
     background-color: #fff;
     top: 60%;
     left: 50%;
@@ -39,13 +39,18 @@ body{
     box-sizing: border-box;
     padding: 70px 30px;
 }
+#form_Signup p{
+    margin: 0px;
+    padding: 0%;
+    font-weight: bold;
+}
 input{
     width: 80%;
     border: none;
    /* border-radius: 10px;   */
     border-bottom: 2px solid rgb(23, 59, 59);
     
-    margin-bottom: 10px;
+    margin-bottom:10px;
     background-color: white;
 }
 input:focus{
