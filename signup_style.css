@@ -1,8 +1,9 @@
 body{
+    background-color: rgb(17, 72, 82);
 	margin:0;
 }
 header{
-    background-color:rgb(19, 68, 68);
+   
     display: block;
 }
 .social{
@@ -20,7 +21,7 @@ vertical-align: middle;
 }
 body{
     background-image: url(images/img2.jpg);
-    background-repeat: no-repeat;   
+    
     background-position: center; 
     background-size: cover;
     width:100%;
@@ -44,8 +45,8 @@ input{
     border: none;
    /* border-radius: 10px;   */
     border-bottom: 2px solid rgb(23, 59, 59);
-    font-size: 16px;
-    margin-top: 10px;
+    
+    margin-bottom: 10px;
     background-color: white;
 }
 input:focus{
@@ -63,7 +64,7 @@ input[type=submit]{
     cursor: pointer;
     color: black;
     font-weight: bold;
-    border-radius: 50%;
+    border-radius: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 20px;
