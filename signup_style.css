@@ -28,9 +28,17 @@ body{
     height:100%
 
 }
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
 #outPopUp {
     width: 350px;
-    height: 600px;
+    height: 550px;
     background-color: #fff;
     top: 60%;
     left: 50%;
@@ -45,7 +53,7 @@ body{
     font-weight: bold;
 }
 input{
-    width: 80%;
+    width: 100%;
     border: none;
    /* border-radius: 10px;   */
     border-bottom: 2px solid rgb(23, 59, 59);
