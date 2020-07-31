@@ -50,7 +50,7 @@ input{
     background-color: white;
 }
 input:focus{
-    border-bottom: 10px solid rgb(23, 59, 59));
+    border-bottom: 10px solid rgb(23, 59, 59);
 }
 input[type=text],input[type=password],input[type=Email]{
     border: none;
