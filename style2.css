@@ -94,10 +94,10 @@ color: #fff;
 }
 .loginbox a {
    text-decoration: none;
-   font-size: 12px;
+   font-size: 13px;
    line-height: 20px;
-   color:darkgray;
+/* color:darkgray;   */
 }
-.loginbox a :hover{
+.loginbox a:hover{
     color: red;
 }
