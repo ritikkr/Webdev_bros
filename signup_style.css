@@ -2,7 +2,7 @@ body{
 	margin:0;
 }
 header{
-    background-color:cyan;
+    background-color:rgb(19, 68, 68);
     display: block;
 }
 .social{
@@ -42,13 +42,13 @@ input{
     width: 80%;
     border: none;
    /* border-radius: 10px;   */
-    border-bottom: 2px solid cyan;
+    border-bottom: 2px solid rgb(23, 59, 59);
     font-size: 16px;
     margin-top: 10px;
     background-color: white;
 }
 input:focus{
-    border-bottom: 3px solid cyan;
+    border-bottom: 3px solid rgb(33, 87, 87);
 }
 .form_Signup{
     color:black;
@@ -66,14 +66,14 @@ input[type=submit]{
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 20px;
-    background-color:cyan;
+    background-color:rgb(24, 68, 68);
 }
 label{
     font-size: 20px;
     font-weight:500;
 }
 .multicolortext {
-    background-color: cyan;
+    background-color: rgb(33, 85, 85);
     color: black;
     text-align: center;
     font-size: 25px;
