@@ -29,16 +29,15 @@ body{
 
 }
 #outPopUp {
-    position: absolute;
     width: 350px;
     height: 550px;
-    z-index: 15;
-    top: 40%;
+    background-color: #fff;
+    top: 60%;
     left: 50%;
-    margin: -100px 0 0 -150px;
-    background:white;
-    padding-left: 25px;
-   /* border-radius: 5px;   */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
 }
 input{
     width: 80%;
