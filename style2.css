@@ -46,10 +46,10 @@ header{
 
 .loginbox{
     
-    width: 320px;
-    height: 420px;
+    width: 350px;
+    height: 550px;
     background-color: #fff;
-    top: 50%;
+    top: 40%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
