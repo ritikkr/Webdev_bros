@@ -39,8 +39,9 @@ header{
 .loginbox{
     
     width: 320px;
-    height: 460px;
+    height: 480px;
     background-color: #fff;
+    border-radius: 10px;
     top: 60%;
     left: 50%;
     position: absolute;
@@ -58,6 +59,7 @@ h1{
 margin: 0px;
 padding: 0%;
 font-weight: bold;
+
 }
 .loginbox input{
     width: 100%;

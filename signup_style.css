@@ -1,10 +1,12 @@
 body{
     background-color: rgb(17, 72, 82);
-	margin:0;
+    margin:0;
+    font-family: sans-serif;
 }
 header{
    
     display: block;
+    
 }
 
 .social{
@@ -13,6 +15,14 @@ header{
     padding: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    
 }
 
 #form_login {
@@ -38,9 +48,10 @@ body{
     left: calc(50% - 50px);
 }
 #outPopUp {
-    width: 350px;
-    height: 550px;
+    width: 320px;
+    height: 535px;
     background-color: #fff;
+    border-radius: 10px;
     top: 60%;
     left: 50%;
     position: absolute;
@@ -50,43 +61,37 @@ body{
 }
 input{
     width: 100%;
-    border: none;
-   /* border-radius: 10px;   */
-    border-bottom: 2px solid rgb(23, 59, 59);
-    
-    margin-bottom:10px;
-    background-color: white;
+
 }
 
-input[type=text],input[type=password],input[type=Email]{
-    border: none;
-    border-bottom: 1px solid black;
+input[type=text],input[type=Email]{
+    border:none;
+    border-bottom: 1px solid rgb(14, 13, 13);
+    background: transparent;
+    outline: none;
     height: 40px;
+    margin-bottom: 20px;
+}
+input[type=password]{
+    border:none;
+    border-bottom: 1px solid rgb(14, 13, 13);
+    background: transparent;
+    outline: none;
+    height: 40px;
+   
+}
 
-}
-.form_Signup{
-    color:black;
-    margin: 15px;
-    text-align: center;
-    margin-bottom:20px;
-    background-color:rgb(203,196,25);
-}
 input[type=submit]{
-    margin: 4px 2px;
-    cursor: pointer;
-    color: black;
-    font-weight: bold;
+    
+    outline: none;
+    border: none;
     border-radius: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 20px;
-    background-color:rgb(24, 68, 68);
+    height: 40px;
+    background: #2e8686;
+    color:black
 }
-label{
-    font-size: 20px;
-    font-weight:500;
-}
-.multicolortext {
+
+.webdev {
     background-color: rgb(33, 85, 85);
     color: black;
     text-align: center;
