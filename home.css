@@ -10,6 +10,24 @@ header{
    
     display: block;
 }
+ul li {
+    display: inline-block;
+    
+}
+ul li a {
+    margin-top: -20px;
+    float: right;
+    font-size: medium;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 13px 13px;
+    transition: 0.5s ease;
+}
+ul li a:hover,
+ul li a.active {
+    text-decoration: underline;
+    background-color: brown;
+}
 .webdev {
     background-color: rgb(33, 85, 85);
     color: black;
@@ -25,4 +43,11 @@ header{
     padding: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.myspace{
+  margin-top: -20px;
+    padding: 0%;
+    float: right;
+ width: 150px;
+ height: 100px;
 }
